@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section h2, section h3, form button, body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #F9F9F9;
+    color: #1A4AAC;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #1A4AAC;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .logo{
+    display: flex;
+    align-items: center;
+}
+.container .logo img{
+    height: 60px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    color: #FF8400;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px 30px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 30px;
+    color: #F9F9F9;
+}
+
+.about-section img{
+    border-radius: 15px;
+}
+.about-text{
+    position: static;
+}
+
+.shop{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: rgba(26, 74, 172, 0.9);
+    border-radius: 15px;
+}
+
+.itens {
+    padding: 34px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-section p{
+    padding: 15px 15px;
+    position: absolute;
+    top: 650px;
+    left: 1000px;
+    width: 500px;
+    background-color: rgba(217, 217, 217, 0.8);
+}
+
+.itens p{
+    font-size: 25px;
+    color: #F9F9F9;
+}
+
+.form{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.form form input, .form form button{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(50%);
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+  }
+  
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    outline: none;
+  }
+  
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    transform: translateY(-100%);
+    font-size: 12px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
